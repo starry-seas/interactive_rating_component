@@ -1,3 +1,77 @@
 body{
     background-color: black;
 }
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: nowrap;
+    position: relative;
+    background-color: linear-gradient(to bottom hsl(216, 12%, 8%),hsl(213, 19%, 18%), hsl(217, 12%, 63%));
+    padding: 1%;
+    margin: 1%;
+}
+
+.star-img{
+    background-color:hsl(213, 19%, 18%);
+    padding: 1%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+
+}
+
+h1{
+    color: hsl(0, 100%, 100%);
+}
+
+p{
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+}
+
+.ratings-num{
+    border: 0;
+    border-radius: 50%;
+
+}
+
+.ratings-num:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    border: 0;
+    border-radius: 15px;
+}
+
+.submit:hover{
+    background-color: hsl(0, 100%, 100%);
+}
+
+.thank-you{
+
+}
+
+.rating-output{
+
+}
+
+.rating-summary{
+
+}
+
+.user-rating{
+
+}
+
+h2{
+   color: hsl(0, 100%, 100%);
+}
