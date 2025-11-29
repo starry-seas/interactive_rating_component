@@ -1,48 +1,75 @@
+@font-face {
+    font-family: overpass ;
+    src: url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" );
+}
+
 body{
-    background-color: black;
+    background-color: hsl(210, 10%, 12%);
+    font-family: overpass;
 }
 
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 400px; */
     height: 100vh;
     flex-wrap: nowrap;
     position: relative;
-    background-color: linear-gradient(to bottom hsl(216, 12%, 8%),hsl(213, 19%, 18%), hsl(217, 12%, 63%));
     padding: 1%;
     margin: 1%;
 }
 
-.star-img{
+#img{
     background-color:hsl(213, 19%, 18%);
-    padding: 1%;
+    padding: 2%;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
 }
 
 .rating{
-
+    border-radius: 15px;
+    background-image: linear-gradient(to top, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+    justify-content:center;
+    align-items:center;
+    padding: 2%;
+    margin: 1%;
 }
 
 h1{
     color: hsl(0, 100%, 100%);
+    font-weight: 700;
 }
 
 p{
     font-size: 15px;
     color: hsl(217, 12%, 63%);
+    font-weight: 400;
+}
+
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 25px 20px;
 }
 
 .ratings-num{
     border: 0;
     border-radius: 50%;
-
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(213, 19%, 18%);
+    font-size: 15px;
+    padding: 4%;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
 }
 
 .ratings-num:hover{
     background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
 }
 
 .submit{
@@ -50,6 +77,10 @@ p{
     color: hsl(216, 12%, 8%);
     border: 0;
     border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .submit:hover{
@@ -58,6 +89,12 @@ p{
 
 .thank-you{
     display:none;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
+    justify-content:center;
+    align-items:center;
+    padding: 2%;
+    margin: 1%;
 }
 
 .rating-output{
