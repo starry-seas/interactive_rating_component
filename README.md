@@ -9,11 +9,11 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My Process](#my-process)
-  - [Built With](HTML CSS JS)
+  - Built With HTML CSS JS
   - [What I Learned](#what-i-learned)
 - [How to Use](#how-to-use)
-- [Authors](#https://github.com/starry-seas #https://github.com/lj-enguita #https://github.com/thelastmedici)
-- [Acknowledgments](#)
+- Authors (https://github.com/starry-seas https://github.com/lj-enguita https://github.com/thelastmedici)
+-
 
 ## Overview
 
@@ -81,4 +81,4 @@ To run this project locally:
 
 ## Acknowledgments
 
-A big thank you to Frontend Mentor for providing this challenge. It's a great way to practice and improve front-end development skills.
+A big thank you to Frontend Mentor for providing this challenge and also to -[ANNA](#https://github.com/annahndr) It's a great way to practice and improve front-end development skills.
