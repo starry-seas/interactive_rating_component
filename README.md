@@ -81,4 +81,4 @@ To run this project locally:
 
 ## Acknowledgments
 
-A big thank you to Frontend Mentor for providing this challenge and also to -[ANNA](#https://github.com/annahndr) It's a great way to practice and improve front-end development skills.
+A big thank you to Frontend Mentor for providing this challenge and also to -[ANNA](https://github.com/annahndr) It's a great way to practice and improve front-end development skills.
