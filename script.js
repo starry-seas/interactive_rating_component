@@ -3,6 +3,7 @@ const ratings = document.querySelector(".ratings");
 const ratingsButtons = document.querySelectorAll(".ratings-num");
 const thankYouMessage = document.querySelector(".thank-you");
 const ratingSummary = document.querySelector(".user-rating");
+const rating =document.querySelector(".rating");
 
 let selectRating = null;
 
@@ -15,7 +16,7 @@ ratingsButtons.forEach (button => {
 
 submitButton.addEventListener("click", function () {
     if (selectRating) {
-        ratings.style.display = "none";
+        rating.style.display = "none";
         thankYouMessage.style.display = "block";
         ratingSummary.textContent = `${selectRating}`;
     }

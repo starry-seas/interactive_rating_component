@@ -107,7 +107,7 @@ h2{
 }
 
 .thank-you{
-    /* display:none; */
+    display:none;
     border-radius: 15px;
     background-image: linear-gradient(to top, hsl(216, 12%, 8%), hsl(213, 19%, 18%));
     justify-content:center;
